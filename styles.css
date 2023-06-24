@@ -180,6 +180,7 @@ p {
     h1 {
         margin-left: -80px;
         font-size: 100px;
+        white-space: nowrap;
     }
 
     p {
