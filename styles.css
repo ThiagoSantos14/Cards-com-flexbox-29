@@ -1,0 +1,191 @@
+body {
+    background-image: url(background_resized.jpg);
+    background-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(fonts/Atartida-Bold.otf);
+    font-family: 'antartida';
+}
+
+@font-face {
+    src: url(fonts/canadian.woff);
+    font-family: 'Canadian';
+}
+
+@font-face {
+    src: url(fonts/waltograph42-webfont.woff2);
+    font-family: 'disney';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.conteudo {
+    width: 25%;
+    height: 500px;
+    background: rgb(180, 179, 179);
+    margin-top: -30px;
+    box-shadow: 10px 5px 5px black;
+    position: relative;
+}
+
+.conteudo:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+h1{
+    font-family: "disney";
+    font-size: 100px;
+    white-space: nowrap;
+    margin-bottom: -129px;
+    margin-left: -110px;
+    z-index: 3;
+    white-space: wrap;
+}
+
+p {
+    padding-top: 497px;
+    font-size: 20px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: space-between;
+        margin-left: -5px;
+    } 
+
+    .conteudo {
+        margin-left: 9px;
+    }
+
+    h1 {
+        z-index: 3;
+        margin-left: -130px;
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .container {
+        margin-left: -25px;
+    }
+
+    h1 {
+        margin-left: -140px;
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .container {
+        margin-left: -25px;
+    }
+
+    h1 {
+        margin-left: -200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 800px) {
+    .container {
+        margin-left: -30px;
+    }
+
+    h1 {
+        margin-left: -200px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .container {
+        margin-left: -20px;
+        margin-top: 90px;
+    }
+
+    .conteudo {
+        margin-top: -90px;
+    }
+
+    h1 {
+        margin-left: -170px;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+        margin-left: -30px;
+        margin-top: 50px;
+    }
+
+    .conteudo {
+        margin-top: -100px;
+    }
+
+    h1 {
+        margin-left: -130px;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .container {
+        margin-left: -40px;
+        margin-top: 90px;
+    }
+
+    .conteudo {
+        margin-top: -90px;
+    }
+
+    h1 {
+        margin-left: -130px;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .conteudo {
+        margin-top: -90px;
+    }
+
+    h1 {
+        margin-left: -80px;
+        font-size: 100px;
+    }
+
+    p {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+}
+
