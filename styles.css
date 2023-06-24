@@ -52,7 +52,7 @@ h1{
     margin-bottom: -129px;
     margin-left: -110px;
     z-index: 3;
-    white-space: wrap;
+    white-space: no-wrap;
 }
 
 p {
